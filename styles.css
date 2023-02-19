@@ -1,0 +1,18 @@
+html {
+    background-color: #d4fcf5;
+    color: #03789c;
+    text-align: center;
+}
+h2 {
+    font-family: 'Sail', Georgia, serif;
+    font-weight: normal;
+    font-size: 3rem;
+    margin: .5rem;
+}
+h3, p {
+    font-family: 'Snippet', Arial, sans-serif;
+    margin: .5rem;
+}
+img {
+    
+}
