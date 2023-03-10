@@ -1,18 +1,41 @@
 html {
-    background-color: #d4fcf5;
+    background-color: #63c8d5;
     color: #03789c;
     text-align: center;
+}
+body {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #d4fcf5;
 }
 h2 {
     font-family: 'Sail', Georgia, serif;
     font-weight: normal;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: .5rem;
+    margin-bottom: 1rem;
 }
 h3, p {
+    font-size: 1rem;
     font-family: 'Snippet', Arial, sans-serif;
     margin: .5rem;
 }
+a {
+    font-weight: bold;
+    color: #03789c;
+}
 img {
-    
+    max-width: 300px;
+}
+@media only screen and (min-width: 35em) {
+    body {
+        padding: 2rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3, a {
+        font-size: 1.2rem;
+    }
 }
